@@ -1,8 +1,8 @@
 #!/bin/bash
-R=\e[31m]
-G=\e[32m]
-Y=\e[33m]
-n=\e[0m]
+R=\e[31m
+G=\e[32m
+Y=\e[33m
+n=\e[0m
 person1=$1
 person2=$2
 echo " $R hi my name is $person1"
