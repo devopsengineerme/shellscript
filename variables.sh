@@ -1,6 +1,6 @@
 #!/bin/bash
 echo " please enter your username"
-read -s USERNAME
+read -s username
 echo " please enter your passward"
-read -s PASSWARD
-echo " username is :: $USERNAME, passward is :: $PASSWARD"
+read -s passward
+echo " username is :: $username, passward is :: $passward"
