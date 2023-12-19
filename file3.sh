@@ -3,11 +3,11 @@ person2=$2
 echo " $person1:hi my name is $person1"
 echo " $person2:hey common what a surprise , I am $person2"
 Timestamp=$(date) 
-ech " script started at : $Timestamp "
-if[ $? -gt 0 ]
+echo " script started at : $Timestamp "
+number=$3
+if [number -gt 100]
 then
-echo "check the script once"
-exit 1
+echo " the given number is greater than 100"
 else
-echo "success"
+echo " the given number is less than 100"
 fi
