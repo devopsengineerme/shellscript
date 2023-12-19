@@ -5,7 +5,7 @@ echo " $person2:hey common what a surprise , I am $person2"
 Timestamp=$(date) 
 echo " script started at : $Timestamp "
 number=$3
-if [$number -gt 100]
+if [ $number -gt 100 ]
 then
 echo " the given number is greater than 100"
 else
