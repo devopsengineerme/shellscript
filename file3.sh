@@ -4,8 +4,7 @@ echo " $person1:hi my name is $person1"
 echo " $person2:hey common what a surprise , I am $person2"
 Timestamp=$(date) 
 ech " script started at : $Timestamp "
-test=$(echo $?)
-if[ $test -ne 0 ]
+if[ $? -gt 0 ]
 then
 echo "check the script once"
 exit 1
