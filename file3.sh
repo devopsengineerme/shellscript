@@ -1,11 +1,13 @@
 person1=$1
 person2=$2
-echo " hi my name is $person1"
-echo "  hey common what a surprise , I am $person2"
+echo " $person1:hi my name is $person1"
+echo " $person2:hey common what a surprise , I am $person2"
 Timestamp=$(date) 
-echo " script started at : $(Timestamp) "
+echo " script started at : $Timestamp "
 if($? -ne 0)
+then
 echo "check the script once"
+exit 1
 else
 echo "success"
 fi
