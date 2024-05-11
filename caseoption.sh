@@ -1,6 +1,7 @@
 #!/bin/bash
 # just checking the sysntsx of case command in shell script
 a=$1
+####
 b=$2
 #################################################
 echo " a is for addition"
